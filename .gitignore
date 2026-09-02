@@ -1,0 +1,52 @@
+# Variables de entorno
+.env
+**/.env
+
+# Python django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Django
+*.log
+Backend/db.sqlite3
+Backend/media/
+
+
+# =====================
+# FLUTTER / DART
+# =====================
+# Dependencias
+Frontend/.dart_tool/
+Frontend/.packages
+Frontend/.pub-cache/
+Frontend/.pub/
+Frontend/build/
+
+# Android
+Frontend/android/.gradle/
+Frontend/android/local.properties
+Frontend/android/key.properties
+Frontend/android/app/google-services.json
+
+# iOS
+Frontend/ios/Pods/
+Frontend/ios/.symlinks/
+Frontend/ios/Flutter/flutter_export_environment.sh
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
